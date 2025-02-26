@@ -34,7 +34,7 @@ main {
 .fade-text {
   font-size: 20px;
   color: #333;
-  opacity: 0; /* Starter som usynlig */
+  opacity: 0; /* Start as invincible */
   animation: fadeInMove 2s ease-in-out forwards;
 }
 
@@ -57,7 +57,7 @@ main {
 /* Picture with transform */
 .image {
   margin-top: 20px;
-  width: 300px;
+  width: 350px;
   height: auto;
 
   transition: transform 0.3s ease-in-out;
