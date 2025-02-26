@@ -4,7 +4,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #f4f4f4; 
 }
 
 /* Header style */
@@ -75,7 +75,7 @@ footer a {
   font-weight: bold;
   text-decoration: none;
   color: darkblue;
-  padding: ;
+  padding: 0;
   transition: color 0.3s;
 }
 
