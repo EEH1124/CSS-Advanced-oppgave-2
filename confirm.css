@@ -5,7 +5,7 @@ body {
   color: white;
 }
 
-/* H5-tittel med hover-effekt */
+/* H5-titel with hover effect */
 .hover-text {
   font-size: 20px;
   color: #00aaff;
@@ -14,18 +14,18 @@ body {
 }
 
 .hover-text::after {
-  content: ""; /* Starter som tom */
+  content: ""; /* Starts as empty*/
   position: absolute;
   left: 0;
   top: 0;
   color: red;
-  opacity: 0; /* Skjules */
+  opacity: 0; /* hides*/
   transition: opacity 0.3s ease-in-out;
 }
 
 .hover-text:hover::after {
-  content: " Surprise!"; /* Ny tekst ved hover */
-  opacity: 1; /* Gjør teksten synlig */
+  content: " Surprise!"; /* Suprise text on side in red  */
+  opacity: 1; /* Makes the text visible */
 }
 
 a {

@@ -1,4 +1,4 @@
-/* Generelle stiler */
+/* General style*/
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -7,19 +7,19 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Header stil */
+/* Header style */
 header {
   background-color: #333;
   color: white;
   padding: 20px;
 }
 
-/* Hovedinnhold */
+/* Main content */
 main {
   padding: 50px;
 }
 
-/* Animasjon - Fade-in tekst */
+/* AnimasionFade-in text */
 @keyframes fadeInMove {
   0% {
     opacity: 0;
@@ -38,7 +38,7 @@ main {
   animation: fadeInMove 2s ease-in-out forwards;
 }
 
-/* Knapp med transition og transform */
+/* Button with transition og transform */
 .animated-button {
   padding: 15px 30px;
   font-size: 18px;
@@ -54,7 +54,7 @@ main {
   transform: scale(1.1);
 }
 
-/* Bilde med transform */
+/* Picture with transform */
 .image {
   margin-top: 20px;
   width: 300px;
@@ -67,7 +67,7 @@ main {
   transform: scale(1.2);
 }
 
-/* Lenke med fargeovergang */
+/* Link with gradient */
 footer a {
   display: inline-block;
   margin-top: 20px;
