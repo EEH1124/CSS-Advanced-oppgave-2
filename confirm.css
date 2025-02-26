@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: white;
+}
+
+/* H5-tittel med hover-effekt */
+.hover-text {
+  font-size: 20px;
+  color: #00aaff;
+  cursor: pointer;
+  position: relative;
+}
+
+.hover-text::after {
+  content: ""; /* Starter som tom */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: red;
+  opacity: 0; /* Skjules */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-text:hover::after {
+  content: " Surprise!"; /* Ny tekst ved hover */
+  opacity: 1; /* Gjør teksten synlig */
+}
+
+a {
+  color: #00aaff;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+a:hover {
+  color: #ff6600;
+}
